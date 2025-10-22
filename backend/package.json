@@ -1,0 +1,36 @@
+{
+  "name": "clean-architecture",
+  "version": "1.0.0",
+  "description": "https://zenn.dev/poporo/articles/20250914_1_start_ddd_and_clean_architecture_nodejs",
+  "homepage": "https://github.com/saito-katsuhiko-lvgs/clean-architecture#readme",
+  "bugs": {
+    "url": "https://github.com/saito-katsuhiko-lvgs/clean-architecture/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saito-katsuhiko-lvgs/clean-architecture.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.6",
+    "@types/express": "5.0.3",
+    "@types/node": "24.7.2",
+    "prisma": "6.17.1",
+    "vite": "7.1.10",
+    "vitest": "3.2.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.17.1",
+    "express": "^5.1.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "uuid": "^13.0.0",
+    "zod": "^4.1.12"
+  }
+}
